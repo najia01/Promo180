@@ -1,0 +1,95 @@
+$workSansBold: 'WorkSans-Bold', sans-serif;
+$workSansMedium: 'WorkSans-Medium', sans-serif;
+$primary: #11C1D3;
+$secondary: #27EE9E;
+$new: #ebded5;
+
+$accent-color: #989eac;
+
+body {
+    background-color: #100304;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.row-limit-size {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+header {
+
+    #logoBurger {
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 0;
+
+        #logo {
+            width: 250px;
+            height: 200px;
+            margin-left: 40px;
+        }
+
+        #menuBurger {
+            width: 50px;
+            height: 50px;
+            margin-top: 60px;
+            margin-right: 40px;
+            display: block;
+
+        }
+    }
+
+    nav {
+        #navigation {
+            display: none;
+
+            li {
+                padding: 20px 0;
+                text-align: center;
+                width: 300px;
+
+                a {
+                    font-family: $workSansMedium;
+                    font-size: 1.2rem;
+                    color: white;
+                    padding: 20px 0;
+                }
+            }
+
+        }
+
+        #navigation.active {
+            display: block;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+    }
+}
+
+// *-*-*-*-*-SECTION CONTACT US *-*-*-*-*-*-
+
+.contactUs{
+    width: 100%;
+    height: auto;
+
+    h1{
+        font-family: $workSansBold;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+
+
+

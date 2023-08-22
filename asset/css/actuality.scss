@@ -1,0 +1,175 @@
+$workSansBold: 'WorkSans-Bold', sans-serif;
+$workSansMedium: 'WorkSans-Medium', sans-serif;
+$primary: #11C1D3;
+$secondary: #27EE9E;
+$new: #ebded5;
+
+$accent-color: #989eac;
+
+body {
+    background-color: #100304;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.row-limit-size {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+header {
+
+    #logoBurger {
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 0;
+
+        #logo {
+            width: 250px;
+            height: 200px;
+            margin-left: 40px;
+        }
+
+        #menuBurger {
+            width: 50px;
+            height: 50px;
+            margin-top: 60px;
+            margin-right: 40px;
+            display: block;
+
+        }
+    }
+
+    nav {
+        #navigation {
+            display: none;
+
+            li {
+                padding: 20px 0;
+                text-align: center;
+                width: 300px;
+
+                a {
+                    font-family: $workSansMedium;
+                    font-size: 1.2rem;
+                    color: white;
+                    padding: 20px 0;
+                }
+            }
+
+        }
+
+        #navigation.active {
+            display: block;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+    }
+}
+
+
+h1{
+    font-size: 2rem;
+    font-family: $workSansBold;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+
+main {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    font-family: $workSansBold;
+
+
+    .card {
+        width: 300px;
+        height: 450px;
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+        margin-top: 30px;
+
+        img {
+            position: absolute;
+            object-fit: fill;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0.9;
+            transition: opacity .2s ease-out;
+        }
+
+        h2 {
+            position: absolute;
+            inset: auto auto 30px 30px;
+            color: white;
+            transition: inset .3s .3s ease-out;
+            font-family: $workSansBold;
+            text-shadow: 1px 1px 2px black;
+
+        }
+
+
+        #resume {
+            inset: auto auto 80px 20px;
+            position: absolute;
+            font-family: $workSansMedium;
+            opacity: 0;
+            max-width: 80%;
+            transition: opacity .3s ease-out;
+            color: white;
+        }
+
+        a {
+            inset: auto auto 40px 30px;
+            color: inherit;
+            text-decoration: none;
+            position: absolute;
+            opacity: 0;
+            max-width: 80%;
+            transition: opacity .3s ease-out;
+        }
+
+        &:hover h2 {
+            inset: auto auto 220px 30px;
+            transition: inset .3s ease-out;
+        }
+
+        &:hover #resume,
+        &:hover a {
+            opacity: 1;
+            transition: opacity .5s .1s ease-in;
+        }
+
+        &:hover img {
+            transition: opacity .3s ease-in;
+            opacity: 1;
+        }
+
+        .button {
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+    }
+
+}

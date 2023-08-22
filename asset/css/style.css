@@ -89,7 +89,7 @@ header nav #navigation.active {
   padding: 40px;
   font-style: italic;
   font-family: "WorkSans-Bold", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 .cardStudent .wrapper {
@@ -99,10 +99,9 @@ header nav #navigation.active {
   height: auto;
 }
 .cardStudent .card {
-  width: 420px;
-  height: 340px;
-  margin: 1em;
-  perspective: 1500px;
+  width: 300px;
+  height: 320px;
+  margin: 3em;
 }
 .cardStudent .card .content {
   position: relative;
@@ -136,7 +135,6 @@ header nav #navigation.active {
   transform: translateZ(80px) scale(0.94);
 }
 .cardStudent .front {
-  background-color: #fff;
   background-size: cover;
   background-position: center center;
 }
@@ -152,17 +150,14 @@ header nav #navigation.active {
 }
 .cardStudent .front .inner {
   grid-template-rows: 5fr 1fr 1fr 2fr 1fr;
-  justify-items: center;
 }
 .cardStudent .front h2 {
-  grid-row: 2;
-  font-size: 1.8rem;
   margin-bottom: 0.3em;
   letter-spacing: 3px;
   color: white;
   font-weight: 700;
   text-align: center;
-  text-shadow: 3px 3px 2px rgb(215, 90, 27);
+  text-shadow: 2px 2px 2px #27EE9E;
 }
 .cardStudent .back {
   transform: rotateY(180deg);
@@ -196,6 +191,7 @@ header nav #navigation.active {
   font-weight: 600;
   margin-top: 10px;
   font-size: 0.8rem;
+  text-align: center;
 }
 .cardStudent .description {
   grid-row: 5;
@@ -211,13 +207,17 @@ header nav #navigation.active {
   font-weight: 600;
   margin-top: 10px;
   font-size: 0.8rem;
+  padding-left: 10px;
+}
+.cardStudent a img {
+  width: 30px;
+  margin-top: 10px;
 }
 .cardStudent .button {
   grid-column: 1/-1;
   justify-self: center;
 }
-
-.button {
+.cardStudent .button {
   grid-row: -1;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -238,32 +238,54 @@ header nav #navigation.active {
   transition: 0.3s ease-in-out;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
-.button:hover {
-  background-color: #fff;
+.cardStudent .button:hover {
+  background-color: #11C1D3;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   text-shadow: none;
   color: white;
 }
-.button.return {
+.cardStudent .button.return {
   line-height: 3em;
   color: #11C1D3;
   border-color: #27EE9E;
   text-shadow: none;
 }
-.button.return:hover {
+.cardStudent .button.return:hover {
   background-color: #11C1D3;
   color: #fff;
   box-shadow: none;
 }
-.button ::-webkit-scrollbar {
+.cardStudent .button ::-webkit-scrollbar {
   width: 5px;
 }
-.button ::-webkit-scrollbar-track {
+.cardStudent .button ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
-.button ::-webkit-scrollbar-thumb {
+.cardStudent .button ::-webkit-scrollbar-thumb {
   background: #d0d3da;
 }
-.button ::-webkit-scrollbar-thumb:hover {
+.cardStudent .button ::-webkit-scrollbar-thumb:hover {
   background: #989eac;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+  align-items: center;
+}
+footer #footerLogo {
+  width: 450px;
+  height: 180px;
+}
+footer .copyright {
+  width: 100%;
+  height: 20px;
+  font-size: 0.8rem;
+  font-family: "WorkSans-Bold", sans-serif;
+  color: white;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
