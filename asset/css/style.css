@@ -1,0 +1,269 @@
+body {
+  background-color: #100304;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.row-limit-size {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+header #logoBurger {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+header #logoBurger #logo {
+  width: 250px;
+  height: 200px;
+  margin-left: 40px;
+}
+header #logoBurger #menuBurger {
+  width: 50px;
+  height: 50px;
+  margin-top: 60px;
+  margin-right: 40px;
+  display: block;
+}
+header nav #navigation {
+  display: none;
+}
+header nav #navigation li {
+  padding: 20px 0;
+  text-align: center;
+  width: 300px;
+}
+header nav #navigation li a {
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  padding: 20px 0;
+}
+header nav #navigation.active {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.hero img {
+  width: 70%;
+  border-radius: 20px;
+}
+.hero .presentation {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  color: white;
+  text-align: center;
+}
+
+.cardStudent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  height: auto;
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.cardStudent .title-recommand {
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 40px;
+  font-style: italic;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.cardStudent .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: auto;
+}
+.cardStudent .card {
+  width: 420px;
+  height: 340px;
+  margin: 1em;
+  perspective: 1500px;
+}
+.cardStudent .card .content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
+}
+.cardStudent .more {
+  display: none;
+}
+.cardStudent .more:checked ~ .content {
+  transform: rotateY(180deg);
+}
+.cardStudent .front,
+.cardStudent .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  border-radius: 6px;
+}
+.cardStudent .front .inner,
+.cardStudent .back .inner {
+  height: 100%;
+  display: grid;
+  padding: 1.5em;
+  transform: translateZ(80px) scale(0.94);
+}
+.cardStudent .front {
+  background-color: #fff;
+  background-size: cover;
+  background-position: center center;
+}
+.cardStudent .front:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 6px;
+}
+.cardStudent .front .inner {
+  grid-template-rows: 5fr 1fr 1fr 2fr 1fr;
+  justify-items: center;
+}
+.cardStudent .front h2 {
+  grid-row: 2;
+  font-size: 1.8rem;
+  margin-bottom: 0.3em;
+  letter-spacing: 3px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 3px 3px 2px rgb(215, 90, 27);
+}
+.cardStudent .back {
+  transform: rotateY(180deg);
+  background-color: #fff;
+  border: 2px solid rgb(240, 240, 240);
+}
+.cardStudent .back .inner {
+  grid-template-rows: 1fr 2fr 1fr 2fr 14fr 1fr 1fr;
+  grid-column-gap: 0.8em;
+  justify-items: center;
+}
+.cardStudent .back .info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.cardStudent .back:not(:first-of-type):before {
+  content: "";
+  position: absolute;
+  left: -0.9em;
+  height: 18px;
+  width: 1px;
+  background-color: #ccc;
+}
+.cardStudent .back #titleSpan {
+  font-size: 1.2rem;
+}
+.cardStudent .back span {
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+.cardStudent .description {
+  grid-row: 5;
+  grid-column: 1/-1;
+  font-size: 0.86em;
+  border-radius: 5px;
+  font-weight: 600;
+  line-height: 1.4em;
+  overflow: auto;
+  padding-right: 10px;
+}
+.cardStudent a {
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+.cardStudent .button {
+  grid-column: 1/-1;
+  justify-self: center;
+}
+
+.button {
+  grid-row: -1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  padding: 0 1.5em;
+  height: 3em;
+  line-height: 2.9em;
+  min-width: 3em;
+  background-color: transparent;
+  border: solid 2px #27EE9E;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  left: 50%;
+  backface-visibility: hidden;
+  transition: 0.3s ease-in-out;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.button:hover {
+  background-color: #fff;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  text-shadow: none;
+  color: white;
+}
+.button.return {
+  line-height: 3em;
+  color: #11C1D3;
+  border-color: #27EE9E;
+  text-shadow: none;
+}
+.button.return:hover {
+  background-color: #11C1D3;
+  color: #fff;
+  box-shadow: none;
+}
+.button ::-webkit-scrollbar {
+  width: 5px;
+}
+.button ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.button ::-webkit-scrollbar-thumb {
+  background: #d0d3da;
+}
+.button ::-webkit-scrollbar-thumb:hover {
+  background: #989eac;
+}/*# sourceMappingURL=style.css.map */
