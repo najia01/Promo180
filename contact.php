@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./asset/contact.css">
-    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="./asset/css/contact.css">
+    <!-- <link rel="stylesheet" href="./asset/style.css"> -->
     <title>PROMO 180</title>
 </head>
 
@@ -20,12 +20,8 @@
             </div>
             <nav>
                 <ul id="navigation">
-                    <li><a href="#">Catégorie</a>
-                        <ul class="sub-categories">
-                            <li><a href="#">Technologie</a></li>
-                            <li><a href="#">Outils</a></li>
-                            <li><a href="#">Astuces</a></li>
-                        </ul>
+                    <li><a href="./category.php">Catégorie</a>
+
                     </li>
 
                     <ul>
@@ -46,29 +42,50 @@
 
             <h2>Quelques mots sur notre organisme de formation......</h2>
             <p class="textFormation">
-                OnlineFormapro est le seul prestataire en France proposant une solution globale LMS, suite d’outils auteur, plateforme collaborative, WebConférence, Blog, modules de formation sur étagère et développements spécifiques.
+                OnlineFormapro est le seul prestataire en France proposant une solution globale LMS, suite d’outils auteur, plateforme collaborative, WebConférence, Blog, modules de formation sur étagère et développements spécifiques.<br>
 
-                Pionnier du e-learning en France, Onlineformapro propose, depuis bientôt vingt ans, une solution globale digital learning mariant l’expertisepédagogique et l’excellence technologique.
+                Pionnier du e-learning en France, Onlineformapro propose, depuis bientôt vingt ans, une solution globale digital learning mariant l’expertisepédagogique et l’excellence technologique.<br>
+
+                Composée d’une équipe pluridisciplinaire de professionnels chevronnés : experts en pédagogie, développeurs informatique, ingénieurs multimédia et tuteurs dont l’ambition commune est de démontrer que les Nouvelles Technologies annulent les distances et sont au service de la pédagogie.<br>
+
+                Dès le début de l’activité, OnlineFormapro a fait le choix de développement complètement orienté Web, s’appuyant sur une technologie spécifique et intégrant totalement le multimédia.
 
             </p>
 
             <h2>Et maintenant , parlons un peu de nous......</h2>
+
             <p class="textStudent">
                 Composé de 4 filles et 6 garçons, notre groupe incarne la diversité, la créativité et la passion pour les nouvelles technologies.
 
-                Nous avons tous choisi de nous former chez OnlineFormaPro, une référence en matière de formations en ligne axées sur le développement web et web mobile.
+                Nous avons tous choisi de nous former chez OnlineFormaPro, une référence en matière de formations en ligne axées sur le développement web et web mobile.<br>
 
 
-                En tant que passionnés de technologie, notre objectif commun est de maîtriser les compétences essentielles en développement web et web mobile, afin de créer des expériences en ligne exceptionnelles pour les utilisateurs.
+                En tant que passionnés de technologie, notre objectif commun est de maîtriser les compétences essentielles en développement web et web mobile, afin de créer des expériences en ligne exceptionnelles pour les utilisateurs.<br>
 
-                Que ce soit la création de sites web intuitifs, le développement d'applications mobiles innovantes ou l'optimisation des performances, nous sommes déterminés à exceller dans chaque aspect de notre formation.
+                Que ce soit la création de sites web intuitifs, le développement d'applications mobiles innovantes ou l'optimisation des performances, nous sommes déterminés à exceller dans chaque aspect de notre formation.<br>
 
 
                 N’hésitez pas à nous contacter si vous souhaitez avoir des renseignements ou autres.....
             </p>
 
-            <span class="signature">A très bientôt!!!!!<br>La promo 180</span>
+            <p class="signature">A très bientôt!!!!!<br>La promo 180</p>
         </section>
+
+
+        <!-- *-*-*-*-*-FOOTER*-*-*-*-*- -->
+
+        <footer>
+
+            <img id="footerLogo" src="./asset/img/logo.png" alt="logo promo">
+            <span class="promo">PROMO 180</span>
+            <div class="copyright">
+                <p id="copy">Copyright&copy;2023 Najia</p>
+            </div>
+
+
+
+        </footer>
+
 
     </main>
 

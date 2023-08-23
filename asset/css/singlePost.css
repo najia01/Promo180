@@ -56,50 +56,54 @@ header nav #navigation.active {
   align-items: flex-end;
 }
 
-.contactUs {
+.background {
+  font-family: "WorkSans-Bold", sans-serif;
+}
+.background img {
   width: 100%;
-  height: auto;
 }
-.contactUs h1 {
-  font-family: "WorkSans-Bold", sans-serif;
+.background #titleBack {
+  position: fixed;
+  display: block;
+  top: 2rem;
+  right: 10rem;
   font-size: 2rem;
-  text-align: center;
-  color: #11C1D3;
-  margin-top: 80px;
+  display: block;
+  color: white;
 }
-.contactUs h2 {
-  font-family: "WorkSans-Bold", sans-serif;
-  font-size: 1.3rem;
-  text-align: center;
+
+main {
+  position: relative;
+  border: 1px solid #fff;
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 1.4rem;
+  padding: 2rem 5%;
+  line-height: 1.6;
+}
+main .signature {
+  font-size: 1.2rem;
   color: #27EE9E;
-  margin-top: 80px;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: end;
 }
-.contactUs .textFormation {
-  font-family: "WorkSans-Bold", sans-serif;
-  font-size: 1.2rem;
+main .author {
+  font-weight: bold;
+  margin-right: 10px;
+}
+main .date {
+  margin-left: 10px;
+}
+main h2 {
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 1.4rem;
+  color: #27EE9E;
+}
+main p {
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 1.4rem;
+  color: white;
   text-align: justify;
-  color: white;
-  margin-top: 50px;
-  line-height: 30px;
-  padding: 40px;
-}
-.contactUs .textStudent {
-  font-family: "WorkSans-Bold", sans-serif;
-  font-size: 1.2rem;
-  text-align: justify;
-  color: white;
-  margin-top: 50px;
-  line-height: 30px;
-  padding: 40px;
-}
-.contactUs .signature {
-  font-family: "WorkSans-Bold", sans-serif;
-  font-size: 1.2rem;
-  text-align: right;
-  color: white;
-  margin-top: 50px;
-  line-height: 30px;
-  padding: 40px;
 }
 
 footer {
@@ -122,4 +126,10 @@ footer .copyright {
   font-family: "WorkSans-Bold", sans-serif;
   color: white;
   text-align: center;
-}/*# sourceMappingURL=contact.css.map */
+}
+
+@media all and (max-width: 400px) {
+  main {
+    padding: 2rem;
+  }
+}/*# sourceMappingURL=singlePost.css.map */

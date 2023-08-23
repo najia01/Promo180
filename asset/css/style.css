@@ -157,7 +157,7 @@ header nav #navigation.active {
   color: white;
   font-weight: 700;
   text-align: center;
-  text-shadow: 2px 2px 2px #27EE9E;
+  text-shadow: 2px 2px 2px #11C1D3;
 }
 .cardStudent .back {
   transform: rotateY(180deg);

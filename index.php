@@ -23,12 +23,8 @@
             </div>
             <nav>
                 <ul id="navigation">
-                    <li><a href="#">Catégorie</a>
-                        <ul class="sub-categories">
-                            <li><a href="#">Technologie</a></li>
-                            <li><a href="#">Outils</a></li>
-                            <li><a href="#">Astuces</a></li>
-                        </ul>
+                    <li><a href="./category.php">Catégorie</a>
+
                     </li>
 
                     <ul>

@@ -78,59 +78,70 @@ header {
     }
 }
 
-// *-*-*-*-*-SECTION CONTACT US *-*-*-*-*-*-
+// *-*-*-*-*-*-*-*-*-*SINGLE POST*-*-*-*-*-*--*-*-*-*//
 
-.contactUs {
-    width: 100%;
-    height: auto;
 
-    h1 {
-        font-family: $workSansBold;
+
+
+.background {
+
+    font-family: $workSansBold;
+
+    img {
+        width: 100%;
+    }
+
+    #titleBack {
+        position: fixed;
+        display: block;
+        top: 2rem;
+        right: 10rem;
         font-size: 2rem;
-        text-align: center;
-        color: #11C1D3;
-        margin-top: 80px;
-    }
-
-    h2 {
-        font-family: $workSansBold;
-        font-size: 1.3rem;
-        text-align: center;
-        color: #27EE9E;
-        margin-top: 80px;
-    }
-
-    .textFormation {
-        font-family: $workSansBold;
-        font-size: 1.2rem;
-        text-align: justify;
+        display: block;
         color: white;
-        margin-top: 50px;
-        line-height: 30px;
-        padding: 40px;
-    }
 
-    .textStudent{
-        font-family: $workSansBold;
-        font-size: 1.2rem;
-        text-align: justify;
-        color: white;
-        margin-top: 50px;
-        line-height: 30px;
-        padding: 40px;
-    }
-
-    .signature{
-        font-family: $workSansBold;
-        font-size: 1.2rem;
-        text-align: right;
-        color: white;
-        margin-top: 50px;
-        line-height: 30px;
-        padding: 40px;
     }
 }
 
+main {
+
+    position: relative;
+    border: 1px solid #fff;
+    font-family: $workSansMedium;
+    font-size: 1.4rem;
+    padding: 2rem 5%;
+    line-height: 1.6;
+
+    .signature {
+        font-size: 1.2rem;
+        color:#27EE9E;
+        margin-top: 10px;
+        padding: 20px;
+        text-align: end;
+    }
+
+    .author {
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .date {
+        margin-left: 10px;
+    }
+
+    h2 {
+        font-family: $workSansMedium;
+        font-size: 1.4rem;
+        color: #27EE9E;
+    }
+
+    p {
+        font-family: $workSansMedium;
+        font-size: 1.4rem;
+        color: white;
+        text-align: justify;
+    }
+}
 // *-*-*-*-*FOOTER*-*-*-*-
 
 footer{
@@ -153,9 +164,16 @@ footer{
         font-size: .8rem;
         font-family: $workSansBold;
         color: white;
-      
         text-align: center;
     }
 }
 
 
+
+
+// media queries/
+@media all and (max-width: 400px) {
+    main {
+        padding: 2rem;
+    }
+}

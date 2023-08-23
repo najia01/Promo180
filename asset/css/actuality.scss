@@ -173,3 +173,32 @@ main {
     }
 
 }
+
+// *-*-*-*-*FOOTER*-*-*-*-
+
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+
+    #footerLogo{
+        width: 450px;
+        height: 220px;
+    }
+
+    .copyright {
+        width: 100%;
+        height: 20px;
+        font-size: .8rem;
+        font-family: $workSansBold;
+        color: white;
+      
+        text-align: center;
+    }
+}
+
+

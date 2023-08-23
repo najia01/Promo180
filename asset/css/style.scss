@@ -101,58 +101,58 @@ header {
     }
 }
 
-// // *-*-*-*-*MEDIA QUERIES HEADER*-*-*-*-*
+// *-*-*-*-*MEDIA QUERIES HEADER*-*-*-*-*
 
-// @media screen and (min-width:800px) {
-//     header {
-//         display: flex;
-//         justify-content: center;
+@media screen and (min-width:800px) {
+    header {
+        display: flex;
+        justify-content: center;
 
-//         #logoBurger {
-//             display: flex;
-//             justify-content: space-between;
-//             margin: 25px 0;
+        #logoBurger {
+            display: flex;
+            justify-content: space-between;
+            margin: 25px 0;
 
-//             #logo img {
-//                 width: 75px;
-//                 margin-right: 50px;
-//             }
-
-
-//             #menuBurger {
-//                 display: none;
-//             }
-//         }
+            #logo img {
+                width: 75px;
+                margin-right: 50px;
+            }
 
 
-//         nav {
-//             #menu {
-//                 display: block;
-//                 display: flex;
-//                 width: 70%;
+            #menuBurger {
+                display: none;
+            }
+        }
 
 
-//                 li {
-//                     background-color: unset;
-//                     border: 1px solid $white;
-//                     padding: 20px 50px;
-//                     text-align: center;
-//                     width: 150px;
+        nav {
+            #menu {
+                display: block;
+                display: flex;
+                width: 70%;
+
+
+                li {
+                    background-color: unset;
+                    border: 1px solid $white;
+                    padding: 20px 50px;
+                    text-align: center;
+                    width: 150px;
 
 
 
-//                     a {
-//                         color: $black;
-//                         padding: 20px 0;
-//                     }
-//                 }
+                    a {
+                        color: $black;
+                        padding: 20px 0;
+                    }
+                }
 
-//             }
+            }
 
 
-//         }
+        }
 
-//     }
+    }}
 
 //     #hero img {
 //         width: 100%;
@@ -262,7 +262,7 @@ header {
             color: white;
             font-weight: 700;
             text-align: center;
-            text-shadow: 2px 2px 2px #27EE9E;
+            text-shadow: 2px 2px 2px #11C1D3;
 
         }
 
@@ -382,21 +382,7 @@ header {
     }
 
 
-    ::-webkit-scrollbar {
-        width: 5px;
-    }
-
-    ::-webkit-scrollbar-track {
-        background: #f1f1f1;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: lighten($accent-color, 20%);
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-        background: $accent-color;
-    }
+    
 
 }
 }

@@ -12,24 +12,20 @@
     <header>
 
         <div id="logoBurger">
-        <a href="./index.php"><img id="logo" src="./asset/img/logo.png" alt="logo"></a>
+            <a href="./index.php"><img id="logo" src="./asset/img/logo.png" alt="logo"></a>
             <img id="menuBurger" src="./asset/img/menu.png" alt="menu">
         </div>
         <nav>
             <ul id="navigation">
-                <li><a href="#">Catégorie</a>
-                    <ul class="sub-categories">
-                        <li><a href="#">Technologie</a></li>
-                        <li><a href="#">Outils</a></li>
-                        <li><a href="#">Astuces</a></li>
-                    </ul>
+                <li><a href="./category.php">Catégorie</a>
+
                 </li>
 
                 <ul>
                     <li><a href="./actuality.php">Actualité</a></li>
                 </ul>
                 <ul>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="./contact.php">Contact</a></li>
                 </ul>
             </ul>
         </nav>
@@ -49,7 +45,7 @@
                 <p id="resume">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque.
                 </p>
-                <a href="#" class="button">
+                <a href="./singlePost.php" class="button">
                     En savoir plus...
                 </a>
             </div>
@@ -161,6 +157,19 @@
         </div>
 
 
+        <!-- *-*-*-*-*-FOOTER*-*-*-*-*- -->
+
+        <footer>
+
+            <img id="footerLogo" src="./asset/img/logo.png" alt="logo promo">
+            <span class="promo">PROMO 180</span>
+            <div class="copyright">
+                <p id="copy">Copyright&copy;2023 Najia</p>
+            </div>
+
+
+
+        </footer>
 
     </main>
     <script src="./asset/main.js"></script>

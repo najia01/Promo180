@@ -56,50 +56,31 @@ header nav #navigation.active {
   align-items: flex-end;
 }
 
-.contactUs {
-  width: 100%;
-  height: auto;
-}
-.contactUs h1 {
-  font-family: "WorkSans-Bold", sans-serif;
-  font-size: 2rem;
+h1 {
   text-align: center;
-  color: #11C1D3;
-  margin-top: 80px;
-}
-.contactUs h2 {
   font-family: "WorkSans-Bold", sans-serif;
-  font-size: 1.3rem;
-  text-align: center;
+  text-transform: uppercase;
   color: #27EE9E;
-  margin-top: 80px;
+  margin-top: 40px;
 }
-.contactUs .textFormation {
-  font-family: "WorkSans-Bold", sans-serif;
-  font-size: 1.2rem;
+
+section {
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 1.4rem;
+  padding: 50px;
+  margin-top: 30px;
+}
+section h2 {
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 1.4rem;
+  color: #11C1D3;
+  margin-bottom: 20px;
+}
+section p {
+  font-family: "WorkSans-Medium", sans-serif;
+  font-size: 1.4rem;
+  color: white;
   text-align: justify;
-  color: white;
-  margin-top: 50px;
-  line-height: 30px;
-  padding: 40px;
-}
-.contactUs .textStudent {
-  font-family: "WorkSans-Bold", sans-serif;
-  font-size: 1.2rem;
-  text-align: justify;
-  color: white;
-  margin-top: 50px;
-  line-height: 30px;
-  padding: 40px;
-}
-.contactUs .signature {
-  font-family: "WorkSans-Bold", sans-serif;
-  font-size: 1.2rem;
-  text-align: right;
-  color: white;
-  margin-top: 50px;
-  line-height: 30px;
-  padding: 40px;
 }
 
 footer {
@@ -122,4 +103,4 @@ footer .copyright {
   font-family: "WorkSans-Bold", sans-serif;
   color: white;
   text-align: center;
-}/*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=astuces.css.map */
