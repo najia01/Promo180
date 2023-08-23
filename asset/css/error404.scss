@@ -1,0 +1,116 @@
+$workSansBold: 'WorkSans-Bold', sans-serif;
+$workSansMedium: 'WorkSans-Medium', sans-serif;
+$primary: #11C1D3;
+$secondary: #27EE9E;
+$new: #ebded5;
+
+$accent-color: #989eac;
+$background-image: url('/asset/img/error.svg');
+
+body {
+    background-color: #100304;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.row-limit-size {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+
+    #logoBurger {
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 0;
+
+        #logo {
+            width: 250px;
+            height: 200px;
+            margin-left: 40px;
+        }
+
+        #menuBurger {
+            width: 50px;
+            height: 50px;
+            margin-top: 60px;
+            margin-right: 40px;
+            display: block;
+
+        }
+    }
+
+    nav {
+        #navigation {
+            display: none;
+
+            li {
+                padding: 20px 0;
+                text-align: center;
+                width: 300px;
+
+                a {
+                    font-family: $workSansMedium;
+                    font-size: 1.2rem;
+                    color: white;
+                    padding: 20px 0;
+                }
+            }
+
+        }
+
+        #navigation.active {
+            display: block;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+    }
+}
+
+// *-*-*-*-*-*-*ERROR 404*-*-*-*-*-*-*-*-//
+
+.error {
+    width: 100%;
+    height: auto;
+
+    #erreur {
+        width: 100%;
+        height: 700px;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+      
+
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .button:hover {
+        background-color: #0056b3;
+      }
+}}
