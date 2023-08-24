@@ -37,7 +37,7 @@
 
         <!-- *-*-*-*-*-*-*-ERROR 404*-*-*-*-*-*-*- -->
 
-        <section class="error">
+        <section class="error" class="row-limit-size">
 
             <img id="erreur" src="./asset/img/error.jpg" alt="erreur 404">
 
@@ -46,24 +46,6 @@
             </div>
             
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

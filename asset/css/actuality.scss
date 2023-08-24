@@ -202,3 +202,98 @@ footer{
 }
 
 
+// *-**-*-*-*-*-*-*MEDIA QUERIES*-*-*-*-*-*-*-*-*
+
+@media only screen and (max-width: 445px) {
+
+    header {
+
+        #logoBurger {
+            display: flex;
+            justify-content: space-between;
+            margin: 25px 0;
+
+            #logo {
+                width: 150px;
+                height: 150px;
+                margin-left: 40px;
+            }
+
+            #menuBurger {
+                width: 30px;
+                height: 30px;
+                margin-top: 60px;
+                // margin-right: 40px;
+                display: block;
+
+            }
+}}
+h1{
+    font-size: 1.2rem;
+    padding: 50px;
+}
+main{
+    .card {
+        width: 250px;
+        height: 350px;
+        
+
+        img {
+            position: absolute;
+            object-fit: fill;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0.9;
+            transition: opacity .2s ease-out;
+        }
+        h2 {
+            position: absolute;
+            inset: auto auto 10px 10px;
+            color: white;
+            transition: inset .3s .3s ease-out;
+            font-family: $workSansBold;
+            text-shadow: 1px 1px 2px black;
+
+        }
+
+
+}
+
+}}
+@media only screen and (min-width: 446px) and (max-width: 890px) {
+
+    h1{
+        font-size: 2rem;
+        padding: 50px;
+    }
+    main{
+        .card {
+            width: 350px;
+            height: 400px;
+            
+    
+            img {
+                position: absolute;
+                object-fit: fill;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                opacity: 0.9;
+                transition: opacity .2s ease-out;
+            }
+            h2 {
+                position: absolute;
+                inset: auto auto 10px 10px;
+                color: white;
+                transition: inset .3s .3s ease-out;
+                font-family: $workSansBold;
+                text-shadow: 1px 1px 2px black;
+    
+            }
+    
+    
+    }
+}}

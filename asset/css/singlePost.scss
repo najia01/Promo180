@@ -97,7 +97,7 @@ header {
         top: 2rem;
         right: 10rem;
         font-size: 2rem;
-        display: block;
+       
         color: white;
 
     }
@@ -114,7 +114,7 @@ main {
 
     .signature {
         font-size: 1.2rem;
-        color:#27EE9E;
+        color: #27EE9E;
         margin-top: 10px;
         padding: 20px;
         text-align: end;
@@ -142,9 +142,10 @@ main {
         text-align: justify;
     }
 }
+
 // *-*-*-*-*FOOTER*-*-*-*-
 
-footer{
+footer {
     width: 100%;
     height: 200px;
     display: flex;
@@ -153,7 +154,7 @@ footer{
     align-content: flex-end;
     align-items: center;
 
-    #footerLogo{
+    #footerLogo {
         width: 450px;
         height: 220px;
     }
@@ -164,7 +165,11 @@ footer{
         font-size: .8rem;
         font-family: $workSansBold;
         color: white;
-        text-align: center;
+
+
+        #copy {
+            text-align: center;
+        }
     }
 }
 
@@ -173,7 +178,94 @@ footer{
 
 // media queries/
 @media all and (max-width: 400px) {
+    header {
+
+        #logoBurger {
+            display: flex;
+            justify-content: space-between;
+            margin: 25px 0;
+
+            #logo {
+                width: 150px;
+                height: 150px;
+                margin-left: 40px;
+            }
+
+            #menuBurger {
+                width: 30px;
+                height: 30px;
+                margin-top: 60px;
+                // margin-right: 40px;
+                display: block;
+
+            }
+        }
+    }
+
     main {
         padding: 2rem;
+        border: inherit;
+
+        p {
+            
+            font-size: 1rem;
+            text-align: inherit;
+        }
+    }
+
+    .background {
+        width: 280px img {
+            width: 80%;
+        }
+        #titleBack {
+            #titleBack {
+                position: fixed;
+                display: block;
+                top: 2rem;
+                right: 10rem;
+                font-size: 1.2rem;
+                display: block;
+                color: white;
+        
+            }
+           
+    
+        }
+
+
     }
 }
+@media only screen and (min-width: 437px) and (max-width: 905px) {
+    main {
+        padding: 2rem;
+        border: inherit;
+
+        p {
+            
+            font-size: 1rem;
+            text-align: inherit;
+        }
+    }
+
+    .background {
+      
+        img {
+            width: 100%;
+        }
+        #titleBack {
+           
+                position: fixed;
+                display: block;
+                top: 2rem;
+                right: 10rem;
+                font-size: 2rem;
+                display: block;
+                color: white;
+        
+            }
+           
+    
+        }
+
+
+    }

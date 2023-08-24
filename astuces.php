@@ -40,7 +40,7 @@
         <h1>Astuces en développement web</h1>
 
 
-        <section>
+        <section class="row-limit-size">
             <h2>Astuce 1</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies semper lorem, eu egestas tortor rhoncus nec. Pellentesque vel mauris vel tellus suscipit fringilla. Sed consequat mattis est, in consequat mi fringilla sed.</p><br>
 

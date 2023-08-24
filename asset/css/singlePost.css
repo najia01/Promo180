@@ -68,7 +68,6 @@ header nav #navigation.active {
   top: 2rem;
   right: 10rem;
   font-size: 2rem;
-  display: block;
   color: white;
 }
 
@@ -125,11 +124,69 @@ footer .copyright {
   font-size: 0.8rem;
   font-family: "WorkSans-Bold", sans-serif;
   color: white;
+}
+footer .copyright #copy {
   text-align: center;
 }
 
 @media all and (max-width: 400px) {
+  header #logoBurger {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+  }
+  header #logoBurger #logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+  }
+  header #logoBurger #menuBurger {
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    display: block;
+  }
   main {
     padding: 2rem;
+    border: inherit;
+  }
+  main p {
+    font-size: 1rem;
+    text-align: inherit;
+  }
+  .background {
+    width: 280px img;
+    width-width: 80%;
+  }
+  .background #titleBack #titleBack {
+    position: fixed;
+    display: block;
+    top: 2rem;
+    right: 10rem;
+    font-size: 1.2rem;
+    display: block;
+    color: white;
+  }
+}
+@media only screen and (min-width: 437px) and (max-width: 905px) {
+  main {
+    padding: 2rem;
+    border: inherit;
+  }
+  main p {
+    font-size: 1rem;
+    text-align: inherit;
+  }
+  .background img {
+    width: 100%;
+  }
+  .background #titleBack {
+    position: fixed;
+    display: block;
+    top: 2rem;
+    right: 10rem;
+    font-size: 2rem;
+    display: block;
+    color: white;
   }
 }/*# sourceMappingURL=singlePost.css.map */

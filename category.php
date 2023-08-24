@@ -41,7 +41,7 @@
             <div class="container">
                 <div class="items">
                     <div class="icon-wrapper">
-                        <a href="#"> <img id="pictures" src="./asset/img/IA.jpg" alt="info IA "></a>
+                        <a href="./actuality.php"> <img id="pictures" src="./asset/img/IA.jpg" alt="info IA "></a>
                     </div>
                     <div class="project-name">
                         <p>TECHNOLOGIE</p>
@@ -50,7 +50,7 @@
 
                 <div class="items">
                     <div class="icon-wrapper">
-                        <a href="#"><img id="pictures" src="./asset/img/outils.jpg" alt="outils du developpeur"></a>
+                        <a href="./actuality.php"><img id="pictures" src="./asset/img/outils.jpg" alt="outils du developpeur"></a>
                     </div>
                     <div class="project-name">
                         <p>OUTILS</p>
@@ -60,7 +60,7 @@
 
                 <div class="items">
                     <div class="icon-wrapper">
-                        <a href="#"> <img id="pictures" src="./asset/img/prog.webp" alt="les astuces"></a>
+                        <a href="./astuces.php"> <img id="pictures" src="./asset/img/prog.webp" alt="les astuces"></a>
                     </div>
                     <div class="project-name">
                         <p>ASTUCES</p>
@@ -69,7 +69,7 @@
 
                 <div class="items">
                     <div class="icon-wrapper">
-                        <a href="#"> <img id="pictures" src="./asset/img/logo1.png" alt="la promo 180"></a>
+                        <a href="./actuality.php"> <img id="pictures" src="./asset/img/logo1.png" alt="la promo 180"></a>
                     </div>
                     <div class="project-name">
                         <p>PROMO 180</p>
@@ -78,7 +78,7 @@
 
                 <div class="items">
                     <div class="icon-wrapper">
-                        <a href="#"> <img id="pictures" src="./asset/img/web.png" alt="les formations"></a>
+                        <a href="./actuality.php"> <img id="pictures" src="./asset/img/web.png" alt="les formations"></a>
                     </div>
                     <div class="project-name">
                         <p>FORMATIONS</p>
@@ -87,7 +87,7 @@
 
                 <div class="items">
                     <div class="icon-wrapper">
-                        <a href="#"> <img id="pictures" src="./asset/img/apprendre.jpg" alt="apprendre a coder"></a>
+                        <a href="./actuality.php"> <img id="pictures" src="./asset/img/apprendre.jpg" alt="apprendre a coder"></a>
                     </div>
                     <div class="project-name">
                         <p>CODER</p>

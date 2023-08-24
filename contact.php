@@ -36,7 +36,7 @@
         </header>
 
 
-        <section class="contactUs">
+        <section class="contactUs" class="row-limit-size">
             <h1>Découvrez l'équipe de stagiaires en Développement Web
                 et Web Mobile chez OnlineFormaPro !</h1>
 

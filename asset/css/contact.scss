@@ -158,4 +158,131 @@ footer{
     }
 }
 
+// *-*-*-*-*-*-*-*-MEDIA QUERIES*-*-*-*-*-*-*-*-*-//
 
+@media only screen and (max-width: 437px) {
+
+    header {
+
+        #logoBurger {
+            display: flex;
+            justify-content: space-between;
+            margin: 25px 0;
+
+            #logo {
+                width: 150px;
+                height: 150px;
+                margin-left: 40px;
+            }
+
+            #menuBurger {
+                width: 30px;
+                height: 30px;
+                margin-top: 60px;
+                // margin-right: 40px;
+                display: block;
+
+            }
+}}
+
+.contactUs {
+    width: 100%;
+    height: auto;
+
+    h1 {
+        font-family: $workSansBold;
+        font-size: 1.2rem;
+        text-align: center;
+        color: #11C1D3;
+        margin-top: 80px;
+    }
+
+    h2 {
+        
+        font-size: 1.1rem;
+        
+    }
+    .textFormation {
+       
+        font-size: 1rem;
+       text-align: center;
+    
+       
+    }
+    .textStudent{
+       
+        font-size: 1rem;
+        text-align: center;
+        
+    }
+}
+}
+@media only screen and (min-width: 446px) and (max-width: 597px){
+
+    .contactUs {
+        width: 100%;
+        height: auto;
+    
+        h1 {
+            font-family: $workSansBold;
+            font-size: 1rem;
+            text-align: center;
+            color: #11C1D3;
+            margin-top: 80px;
+        }
+    
+        h2 {
+            
+            font-size: 1rem;
+            
+        }
+        .textFormation {
+           
+            font-size: 1rem;
+           text-align: center;
+        
+           
+        }
+        .textStudent{
+           
+            font-size: 1rem;
+            text-align: center;
+            
+        }
+    }
+
+}
+
+@media only screen and (min-width: 446px) and (max-width: 597px){
+
+    .contactUs {
+        width: 100%;
+        height: auto;
+    
+        h1 {
+            font-family: $workSansBold;
+            font-size: 2rem;
+            text-align: center;
+            color: #11C1D3;
+            margin-top: 80px;
+        }
+    
+        h2 {
+            
+            font-size: 1.3rem;
+            
+        }
+        .textFormation {
+           
+            font-size: 1.2rem;
+           text-align: justify;
+        
+           
+        }
+        .textStudent{
+           
+            font-size: 1.2rem;
+            text-align: justify;
+            
+        }
+    }}

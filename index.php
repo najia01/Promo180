@@ -17,7 +17,7 @@
         <!-- *-*-*-*-*-*HEADER*-*-*-*-*-* -->
         <header>
 
-            <div id="logoBurger">
+            <div id="logoBurger" >
                 <a href="./index.php"><img id="logo" src="./asset/img/logo.png" alt="logo"></a>
                 <img id="menuBurger" src="./asset/img/menu.png" alt="menu">
             </div>
@@ -40,11 +40,11 @@
 
         <!-- *-*-*-*-*-*HERO*-*-*-*-*-* -->
 
-        <div class="hero">
+        <section class="hero" class="row-limit-size>
             <img src="./asset/img/groupe.JPG" alt="groupe de stagiaire">
 
             <p class="presentation">Découvrez l'univers passionnant de la PROMO 180 de stagiaires année 2022/2023 en développement web et web mobiles d'OnlineFormaPro !<br> Plongez-vous dans un monde captivant où la technologie et la créativité fusionnent pour créer des expériences uniques.<br> Notre groupe est composé de personnes venant de différents horizons, tous liés par leur passion pour la création en ligne.<br> Rejoignez-nous pour suivre les aventures palpitantes de notre PROMO 180 et explorer cet excitant voyage au cœur de l'innovation digitale !</p>
-        </div>
+</section>
 
         <!-- *-*-*-*-*-*CARDS*-*-*-*-*- -->
         <section class="cardStudent">

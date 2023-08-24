@@ -105,11 +105,63 @@ header nav #navigation.active {
   transform: translateY(5px);
 }
 
-@media screen and (min-width: 800px) {
+@media only screen and (max-width: 437px) {
+  header #logoBurger {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+  }
+  header #logoBurger #logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+  }
+  header #logoBurger #menuBurger {
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    display: block;
+  }
+}
+.categories .container {
+  height: auto;
+}
+.categories .icon-wrapper #pictures {
+  height: auto;
+  width: 300px;
+  height: 300px;
+}
+.categories .project-name p {
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 437px) and (max-width: 705px) {
+  .categories .container {
+    height: auto;
+  }
+  .categories .items {
+    margin-top: 30px;
+  }
   .categories .icon-wrapper #pictures {
-    width: 295px;
+    width: 350px;
+    height: 350px;
+  }
+  .categories .project-name p {
+    font-size: 2.3rem;
+  }
+}
+@media only screen and (min-width: 705px) and (max-width: 1217px) {
+  .categories .container {
+    height: auto;
+  }
+  .categories .items {
+    margin-top: 30px;
+  }
+  .categories .icon-wrapper #pictures {
+    width: 400px;
     height: 400px;
-    transform: translateY(0px);
-    transition: all 0.6s;
+  }
+  .categories .project-name p {
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=category.css.map */

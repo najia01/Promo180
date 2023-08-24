@@ -20,12 +20,8 @@
             </div>
             <nav>
                 <ul id="navigation">
-                    <li><a href="#">Catégorie</a>
-                        <!-- <ul class="sub-categories">
-                            <li><a href="#">Technologie</a></li>
-                            <li><a href="#">Outils</a></li>
-                            <li><a href="#">Astuces</a></li>
-                        </ul> -->
+                    <li><a href="./category.php">Catégorie</a>
+                    
                     </li>
 
                     <ul>
@@ -39,13 +35,13 @@
 
         </header>
         <!-- *-**--*-*-*-*-*-*-*-*-*-**--SINGLE POST*-*-*-*-*-*-*-*-*-*-*-*-*-// -->
-
-        <section class="background">
+  <main>
+        <section class="background" class="row-limit-size>
 
             <h1 id="titleBack">L'intelligence artificielle : une révolution technologique en marche</h1>
             <img src="./asset/img/IA.jpg" alt="intelligence artificielle">
-        </section>
-        <main>
+       
+      
             <div class="signature">
                 <span class="author">Article de Najia</span>
                 <span class="date">23 Août 2023</span>
@@ -93,7 +89,8 @@
             <h2>Conclusion</h2><br>
 
             <p>L'intelligence artificielle est une réalité de plus en plus présente dans notre société, offrant des opportunités et des défis passionnants. Alors que cette technologie continue de se développer, il est essentiel de trouver un équilibre entre l'innovation et la responsabilité, en veillant à ce que l'IA soit utilisée pour le bien de l'humanité. En exploitant tout son potentiel, l'intelligence artificiellepeut contribuer à résoudre certains des problèmes les plus pressants de notre époque et à ouvrir de nouvelles perspectives pour l'avenir. Cependant, il est crucial de rester vigilant et d'aborder les implications éthiques de manière réfléchie afin de garantir que l'IA soit développée et utilisée de manière responsable et bénéfique pour l'ensemble de la société.</p>
-
+            </section>
+         </main>
             <script src="./asset/main.js"></script>
 
             <!-- *-*-*-*-*-FOOTER*-*-*-*-*- -->
@@ -111,7 +108,7 @@
             </footer>
 
 
-        </main>
+       
 
         </body>
 
