@@ -36,6 +36,7 @@
     <h1>Les dernières actualités du blog</h1>
 
     <main>
+        
         <div class="card">
             <img src="./asset/img/IA.jpg" alt="intelligence artificielle">
             <div class="card-content">
